@@ -50,4 +50,9 @@ git checkout
 
 "Ignorando arquivos"
 
- criar arquivo .gitignore 
+ criar arquivo .gitignore e adiciona nome dos arquivos dentro dela.
+
+ "Desfazendo todas as alterações perde todas alterações desde o início"
+
+ git reset --hard origin/main
+
