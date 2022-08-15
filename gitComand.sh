@@ -47,3 +47,7 @@ git mv "local do arquivo/nome do arquivo"
 "Comando para retornar ao estado inicial"
 
 git checkout
+
+"Ignorando arquivos"
+
+ criar arquivo .gitignore 
