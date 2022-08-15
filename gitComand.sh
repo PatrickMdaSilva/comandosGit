@@ -56,3 +56,20 @@ git checkout
 
  git reset --hard origin/main
 
+"Trabalhando com branches"
+
+"Criando branches traz todos os arquivos da base da branch que está trabalhando e cria um novo local de trabalho"
+
+git branch "nome do branch"
+
+"Deletando branch não é comum apagar branches"
+
+git branch -d "nome da branch" git branch --delete
+
+"Mudando de branch"
+
+git checkout "nome da branch"
+
+"Criando e mudando de branch"
+
+git checkout -b "nome da branch"
