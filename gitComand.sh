@@ -31,3 +31,19 @@ git pull
 "Clona repositórios"
 
 git clone "nome do repositório"
+
+"Remove arquivos"
+
+git rm "nome do arquivo"
+
+"Comando mostra o histótico o que está sendoc realizado"
+
+git log
+
+"Comando para remover ou renomear arquivos"
+
+git mv "local do arquivo/nome do arquivo"
+
+"Comando para retornar ao estado inicial"
+
+git checkout
