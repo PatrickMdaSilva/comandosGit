@@ -160,6 +160,10 @@ git fsck
 
 git reflog
 
-"Transformando repositorio em arquivo"
+"Transformando repositório em arquivo"
 
 git archive --format zip --output arquivos_main.zip main
+
+"Importância do commit"
+
+
