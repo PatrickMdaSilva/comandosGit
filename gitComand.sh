@@ -139,3 +139,27 @@ git show
 "Mostra diferenças do branch"
 
 git diff "nome do arquivo 1"  "nome do arquivo 2"
+
+"Mostra um panorama geral do projeto"
+
+git shortlog
+
+"Limpando arquivos untracked"
+
+git clean -f
+
+"Otimizando o repositório"
+
+git gc
+
+"Verificando integridade dos arquivos"
+
+git fsck
+
+"Mapea passos do que foi feito no repositório"
+
+git reflog
+
+"Transformando repositorio em arquivo"
+
+git archive --format zip --output arquivos_main.zip main
