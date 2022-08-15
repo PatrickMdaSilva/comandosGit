@@ -73,3 +73,15 @@ git checkout "nome da branch"
 "Criando e mudando de branch"
 
 git checkout -b "nome da branch"
+
+"Unindo branch"
+
+git merge "nome do arquivo"
+
+"Salvando modificação deixa de lado se houver a necessidade pode resgatar o código não funciona em arquivos comitados"
+
+git stash
+
+"Localizando as stash"
+
+git stash list
