@@ -84,4 +84,20 @@ git stash
 
 "Localizando as stash"
 
-git stash list
+git stash list 
+
+"Tras a stash de volta"
+
+git stash apply "numero da stash"
+
+"Mostra o que foi alterado na stash"
+
+git stash show
+
+"Remove as stash"
+
+git drop "numero da stash"  git clear "remove todas"
+
+"Marcar o estágio do desenvolvimento "
+
+git tag -a "version" -m  "Descrição"
