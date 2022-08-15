@@ -166,4 +166,9 @@ git archive --format zip --output arquivos_main.zip main
 
 "Importância do commit"
 
+git rebase "branch atual" "branch de testes" -i
 
+squash "deleta commit"
+reword "renomeia"
+
+"aperta esc":x! "salva rebase"
