@@ -25,3 +25,9 @@ git commit "nome do arquivo"-m       git commit -a -m "adiciona todos arquivos"
 git push
 
 "Recebe alterações sincroniza com o repositório remoto"
+
+git pull
+
+"Clona repositórios"
+
+git clone "nome do repositório"
