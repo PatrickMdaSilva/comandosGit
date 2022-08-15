@@ -101,3 +101,41 @@ git drop "numero da stash"  git clear "remove todas"
 "Marcar o estágio do desenvolvimento "
 
 git tag -a "version" -m  "Descrição"
+
+"Verificando alterando tags"
+
+git show  "mostra" git checkout "nome da tag"
+
+"Enviando tags"
+
+git push origin "nome da tag" git push origin --tags
+
+"Enviando branchs"
+
+git push --set-upstream origin "nome da branch"
+
+"Mapeando encontrando branch"
+
+git fetch - a
+
+"Sincronizando com repositório"
+
+git remote
+git remote add origin "nome do repositório"
+
+"Mostra submodulo"
+
+git submodule 
+git submodule add "Endereço do repositório"
+
+"Comentando submodulo"
+
+git push --recurse-submodules=on-demand
+
+"Mostra modificações e commits"
+
+git show
+
+"Mostra diferenças do branch"
+
+git diff "nome do arquivo 1"  "nome do arquivo 2"
